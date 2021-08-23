@@ -2,6 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/399110560.svg)](https://zenodo.org/badge/latestdoi/399110560)
 [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d286340c-bfb6-446d-9e05-ef6880c28e9c/deploy-status)](https://app.netlify.com/sites/apization/deploys)
 
 This repository represents the replication package for the paper:
 
