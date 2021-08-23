@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it these metadata."
+title: "APIzation: Replication Package"
+authors:
+  - family-names: "Valerio"
+    given-names: "Terragni"
+    orcid: "https://orcid.org/0000-0001-5885-9297"
+  - family-names: "Pasquale"
+    given-names: "Salza"
+    orcid: "https://orcid.org/0000-0002-8687-052X"
+
+version: 1.0.0
+date-released: 2021-08-23
+url: "https://github.com/pasqualesalza/apization"
+
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: "Valerio"
+      given-names: "Terragni"
+      orcid: "https://orcid.org/0000-0001-5885-9297"
+    - family-names: "Pasquale"
+      given-names: "Salza"
+      orcid: "https://orcid.org/0000-0002-8687-052X"
+  title: "APIzation: Generating Reusable APIs from StackOverflow Code Snippets"
+  conference:
+    name: "IEEE/ACM International Conference on Automated Software Engineering (ASE)"
+  month: 11
+  year: 2021

@@ -1,0 +1,12 @@
+[
+    {{- range $index, $element := where site.RegularPages "Type" "in" site.Params.mainSections -}}
+    {{ if $index }},{{ end }}
+    {    
+        "title": {{ .Title | jsonify }},
+        "url": "{{ .RelPermalink }}",
+        "question_text": {{ .Params.question_text | jsonify }},
+        "answer_text": {{ .Params.answer_text | jsonify }},
+        "apization_code": {{ .Params.apization_code | jsonify }}
+    }
+    {{- end }}
+]

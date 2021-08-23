@@ -1,0 +1,30 @@
+baseURL: /
+languageCode: en-us
+title: "APIzation: Replication Package"
+theme: anubis
+
+menu:
+  main:
+    - identifier: study
+      name: 📊 Study on APIzations
+      url: /study/
+      weight: 1
+    - identifier: evaluation
+      name: 📝 Evaluation of the approach
+      url: /evaluation/
+      weight: 2
+    - identifier: search
+      name: 🔍 Search APIzations
+      url: /search/
+      weight: 3
+
+params:
+  author: "Pasquale Salza"
+  customCss:
+    - custom.css
+  style: light-without-switcher
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

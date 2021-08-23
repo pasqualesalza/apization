@@ -1,0 +1,9 @@
+[build]
+base = "docs/"
+publish = "public"
+command = "gulp build"
+
+[context.production.environment]
+HUGO_VERSION = "0.87.0"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
